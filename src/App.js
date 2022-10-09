@@ -9,7 +9,11 @@ function App() {
     { name: "Kite", symbul: "🪁" },
     { name: "Radio", symbul: "📻" },
     { name: "Laptop", symbul: "💻" },
-    { name: "Printer", symbul: "🖨️" },
+    { name: "Television", symbul: "📺" },
+    { name: "Bulb", symbul: "💡" },
+    { name: "Pencil", symbul: "✏️" },
+    { name: "Screwdriver", symbul: "🪛" },
+    { name: "Hook", symbul: "🪝" },
   ];
   const emojiChecker = (element) => {
     let [emojInfo] = emojiPedia.filter((ele) => {
